@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../font/Cinzel-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border: 1px solid #ccc;
+}
+
+.header__nav {
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.header__nav__twitter {
+    height: 30px;
+    padding-left: 1100px;
+
+}
+
+.header__nav__facebook {
+    height: 30px;
+}
+
+.header__headline {
+    color: #999;
+    padding: 20px 0 20px 80px;
+    font: 25px Cinzel;
+    display: inline-block;
+}
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 75px;
+}
+
+.banner__text {
+    color: white;
+    font: 80px Cinzel;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.text__head {
+    font-family: Cinzel;
+}
+
+.text__main {
+    font-family: Poppins-Regular;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.gallery {
+    margin: 0 auto 50px auto;
+    width: 90%;
+}
+
+.gallery__picture {
+    height: auto;
+    padding: 30px 25px;
+    width: 33%;
+}
+
+.tourdates{
+    margin-bottom: 100px;
+}
+
+.tourdates__list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.tourdates__list__item {
+    margin-bottom: 20px;
+}
+
+/* #Wären dies dann Modefier? Und wenn diese unabhängig von Block und Elements sind wie verwende ich sie erneut mit dem Spezifischen Namen? */
+.tourdates__list__item--red {
+    color: red;
+    font-family: Cinzel;
+}
+.tourdates__list__item--green {
+    color: green;
+    font-family: Cinzel;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.footer__contact {
+    width: 200px;
+    display: inline-block;
+}
+
+.footer__contact:hover {
+    color: green;
+}

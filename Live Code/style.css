@@ -1,0 +1,29 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+ .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+
+ .product img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+ }
+
+ .product img:hover {
+    opacity: 0.5;
+ }
+
+ #product__new {
+    background-color: aquamarine;
+ }
